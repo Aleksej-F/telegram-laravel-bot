@@ -1,4 +1,4 @@
 <?php
 return [
-  'bot' => '2002032293:AAE5bkaSSKN24xqmq5NiLlESwI8t0ieZFdk',
+  'bot' => '5815389362:AAHThEWCANSCR12FqdIWlQ_tGg4tUWEMUxc',
 ];
