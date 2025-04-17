@@ -21,13 +21,14 @@ Artisan::command('inspire', function () {
 Artisan::command('tester', function () {
     /** @var \DefStudio\Telegraph\Models\TelegraphBot $bot */
     $bot = \DefStudio\Telegraph\Models\TelegraphBot::find(1);
-    // информация о боте
-    // dd($bot->info());
+    /*/ информация о боте*/
+    /*/ dd($bot->info());*/
     
-    //шлет команды для меню
+    /*/шлет команды для меню*/
     dd($bot->registerCommands([
         'hello' => 'говорит привет',
         'actions' => 'различные действия',
-        'help' => 'что умеет этот бот'
+        'help' => 'что умеет этот бот',
+        'shopping list' => 'создать список покупок'
     ])->send());
 });

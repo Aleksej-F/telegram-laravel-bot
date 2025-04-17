@@ -1,2 +1,15 @@
-artisan telegraph:set-webhook
+php artisan telegraph:new-bot
 
+php artisan telegraph:set-webhook
+
+php artisan tester
+
+php8.1 artisan telegraph:new-bot
+
+php8.1 artisan telegraph:set-webhook
+
+php8.1 artisan tester
+
+php artisan vendor:publish --tag="telegraph-migrations"
+
+cd tesdir.l7933yx2.beget.tech/public_html
