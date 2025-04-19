@@ -20,7 +20,7 @@ Artisan::command('inspire', function () {
 
 Artisan::command('tester', function () {
     /** @var \DefStudio\Telegraph\Models\TelegraphBot $bot */
-    $bot = \DefStudio\Telegraph\Models\TelegraphBot::find(1);
+    $bot = \DefStudio\Telegraph\Models\TelegraphBot::find(5);
     /*/ информация о боте*/
     /*/ dd($bot->info());*/
     

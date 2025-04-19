@@ -13,3 +13,4 @@ php8.1 artisan tester
 php artisan vendor:publish --tag="telegraph-migrations"
 
 cd tesdir.l7933yx2.beget.tech/public_html
+

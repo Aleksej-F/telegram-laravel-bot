@@ -20,6 +20,11 @@ class Handler extends WebhookHandler
     {
         $this->reply('*Привет!* Пока я имею только говорить привет.');
     }
+    
+    public function command1(): void
+    {
+        $this->reply('*Привет!* Пока я имею только говорить привет.');
+    }
 
     public function actions(): void
     {
